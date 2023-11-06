@@ -1,0 +1,40 @@
+.cart-container{
+    padding: 1rem 1rem 5rem;
+    height: 100vh;
+    background-color:#f2f4f7d5;
+    }
+    
+     .cart-box{
+        background-color: #ffff;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        width: 150%;
+        padding: 0 0 0.5rem;
+    }
+    .cart-box h1{
+        justify-self: flex-start;
+        font-family: Source Sans Pro,sans-serif;
+        font-size: 1.3rem;
+        color: black;
+        padding: 5px;
+    }
+    .cart-box a button{
+        background-color: #103178;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        font-family: Roboto,sans-serif;
+        font-size: 1.2rem;
+        margin: 0.6rem 0;
+        padding: 0.5rem 2rem;
+    }
+    
+    .cart-box h2{
+    font-size: 20px;
+    }
+    
+    .cart-box img{
+        width: 400px;
+       background-color: transparent;
+    }

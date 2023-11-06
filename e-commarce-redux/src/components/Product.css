@@ -1,0 +1,73 @@
+.pdt{
+    margin:0;
+    grid-gap:2rem;
+    display: grid;
+    grid-template-columns: 1fr 30%;
+    align-items: center;
+    justify-self: center;
+    padding: 2rem  8rem 2rem;
+    background-color:#f2f4f7d5;
+}
+
+.pdt_container{
+    background-color: #fff; 
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: .5rem;
+    padding: 1rem;
+    border: 2px solid #bee6d9;
+}
+
+.pdt_container .pdt_image img{
+width: 100%;
+max-width: 300px;
+height: 300px;
+padding: 1rem;
+}
+
+.pdt_container .pdt_info{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    padding: 1rem;
+}
+    
+h3{
+    margin: 0;
+    color: #6b320a;
+    text-transform: uppercase;
+}
+h2{
+    color: #c78016;
+    font-size: 20px;
+}
+
+.pdt_container .pdt_info .addcart_btns{
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+}
+
+ 
+    .Quantitys button {
+        background-color: #7fdfd7d1;
+        color: #fff;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+        font-size: 1em;
+        margin: 0 5px; 
+        cursor: pointer;
+        font-size: 20px;
+
+      }
+.addcart_btns .add_cart button{
+    padding: 10px;
+    color: #ffff;
+    background-color: #c78016;
+    margin: 10px 0;
+    border:2px solid #6b320a;
+    cursor: pointer;
+    font-size: 20px;
+}
+
